@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    z-index: 5;
+    height: 13vh;
+  }
+  .header-ul li h2 {
+    display: none;
+  }
+  .bell {
+    display: none;
+  }
+  .heart-ban {
+    display: none;
+  }
+  .extra-control {
+    display: none;
+  }
+  #footer-song-name {
+    font-size: 12px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .volume-container {
+    width: 80%;
+  }
+  #player-control {
+    width: 80%;
+  }
+  .main-container {
+    flex-direction: column;
+    margin-top: 10vh;
+    height: auto;
+    z-index: 1;
+  }
+  .right-container {
+    width: 85%;
+    padding-top: 30px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  .left-container {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .carousel {
+    width: 100%;
+  }
+  #slider {
+    margin: 0px 100px;
+  }
+  .lr-row {
+    flex-direction: column;
+  }
+  .lr-element {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*INDEX2.html*/
+  .artist-box {
+    flex-direction: column;
+  }
+  .artist-box-image {
+    width: 100%;
+  }
+  .artist-box-image img {
+    height: 300px;
+  }
+  .artist-box-description {
+    width: 100%;
+  }
+  .artist-songs {
+    width: 95%;
+  }
+}
